@@ -1,0 +1,22 @@
+{
+    "jsonpaths": [
+        "$['artist']",         // Name of the artist
+        "$['auth']",           // Authentication status (e.g., logged in, logged out)
+        "$['firstName']",      // User's first name
+        "$['gender']",         // User's gender
+        "$['itemInSession']",  // Position of the item in the session
+        "$['lastName']",       // User's last name
+        "$['length']",         // Length of the song played
+        "$['level']",          // Subscription level (e.g., free, paid)
+        "$['location']",       // User's location
+        "$['method']",         // HTTP method used (e.g., GET, POST)
+        "$['page']",           // Page visited (e.g., "NextSong")
+        "$['registration']",   // User's registration timestamp
+        "$['sessionId']",      // ID of the session
+        "$['song']",           // Name of the song
+        "$['status']",         // HTTP status code
+        "$['ts']",             // Event timestamp in epoch format
+        "$['userAgent']",      // Information about the user's browser and OS
+        "$['userId']"          // Unique identifier for the user
+    ]
+}
