@@ -101,6 +101,8 @@ All transformation queries are defined in final_project_sql_statements.py. These
    - Task Flow:
      - Begin_execution → Stage_events, Stage_songs → Load_songplays_fact_table → Load Dimension Tables → Run_data_quality_checks → Stop_execution
 
+<img src="./images/final_dag_image.png">
+
 ## Testing:
 - Verified data integrity by running queries on the Redshift tables.
 - Used Airflow task logs to debug issues during development.
